@@ -274,4 +274,31 @@
         padding: 1rem;
         font-size: 1.2rem; /* Ajusta o tamanho da fonte conforme necessário */
     }
+
+    #oque {
+        background-color: #FFFDF9;
+        text-align: center;
+        width: auto;
+        padding: 2vh 2vw 1vh 2vw;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin-bottom: 0 !important;
+        height: auto;
+    }
+
+    .whatis {
+        font-size: 2rem;
+        margin-bottom: -1.6rem !important;
+        padding: 2vh 0 -10vh 0 !important;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        color: #B99AC3;
+    }
+    .whatisplanejamento {
+        font-size: 1.4rem;
+        font-weight: normal !important;
+        text-align: center !important;
+        color: black;
+        line-height: 1.5;   
+    }
 }
