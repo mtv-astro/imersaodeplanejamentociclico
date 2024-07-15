@@ -1,0 +1,55 @@
+body {
+    font-family: 'EB Garamond', serif;
+    color: #333;
+    background-color: B99AC3 ;
+    margin: 0;
+    padding: 0;
+    padding-top: 0; /* Compensar a altura do cabeçalho fixo */
+    text-align: center;
+    /*border: 30px solid yellow; /* Borda temporária para visualização */
+}
+
+header {
+    width: 100%;
+    padding: 1rem 0;
+    color: white;
+    text-align: center;
+    height: 1vh;
+    /*outline: 2px solid red; /* Borda temporária para visualização */
+}
+
+.container {
+    width: 100%;
+    /*width: calc(100%-60px);*/
+    margin: 0 0;
+    padding: 0; /* Remove qualquer padding */
+    /*border: 30px outset rgb(0, 255, 76); /* Borda temporária para visualização */
+
+
+}
+
+header {
+    margin: 0;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    text-align: center; /* Centraliza o texto */
+    height: auto;
+
+}
+
+.espira {    
+    text-align: center;
+    padding: 0 0 0 0 !important;
+    margin: 0 0 0 0;
+}
+
+.content-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}

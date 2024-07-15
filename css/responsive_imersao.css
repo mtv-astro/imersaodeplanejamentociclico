@@ -1,0 +1,277 @@
+
+/* Estilos para smartphones */
+@media (max-width: 768px) {
+    header {
+        margin: 0 0 2vh 0;
+    }
+
+    #venda-imersao {
+        flex-direction: column;
+        align-items: center;
+        width: 100% !important;
+    }
+    #tit .imersao {
+        background-color: transparent !important;
+        font-size: 1.5rem;
+        width: 80vw !important;
+        display: flex !important; /* Define o contêiner como flex */
+        justify-content: center !important; /* Centraliza horizontalmente */
+        align-items: center; /* Centraliza verticalmente */
+        padding-top: 3vh;
+        text-align: center !important; /* Garante que o texto esteja centralizado */
+        margin: 0 auto !important; /* Centraliza horizontalmente com margem automática */
+
+    }
+    
+    #tit .ocaminho {
+        font-size: 1.5rem !important;
+        width: 95vw !important;
+        display: flex !important; /* Define o contêiner como flex */
+        justify-content: center !important; /* Centraliza horizontalmente */
+        align-items: center; /* Centraliza verticalmente */
+        text-align: center !important; /* Garante que o texto esteja centralizado */
+        margin: 0 auto !important; /* Centraliza horizontalmente com margem automática */
+
+    }
+    #promessa {
+        align-items: center;
+    }
+    #promessa .paramulheres {
+        font-size: 1.5rem !important;
+        width: 90vw !important;
+        
+    }
+    .paramulheres2 {
+        font-size: 1.4rem !important;
+        width: 90vw !important;
+    }
+    .button-container {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    #promessa .button1 {
+        width: auto;
+        color: black !important
+        ;
+        background-color: #B6C783 !important;
+        margin: 0.5rem 0;
+        padding: 0.8rem 1.5rem;
+    }
+    #imgseparator1 {
+        height: 25vh;
+        font-size: 1.2rem;
+    }
+    #imgseparator1 .when2 {
+        font-size: 1.1rem !important;
+        padding-top: 9vh !important;
+        font-weight: 800 !important; 
+    }
+    #imgseparator1 .umdia {
+        font-size: 1.3rem !important;
+        margin-top: 2rem;
+    }
+
+   /*sessão fundo roxo. Permita-e viver um novo....*/
+    #oplanejamento {
+        font-size: 1rem !important;
+        padding: 0.5rem !important;
+        text-align: center !important;
+        padding-left: 1rem !important;  
+        padding-right: 1rem !important;
+    }
+
+    .circle-image-container {
+        width: 12rem !important;
+        height: 12rem !important;
+        margin: 0 auto !important; /* Centraliza horizontalmente */
+    }
+    .circle-image {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        display: block !important;
+    }
+    #oplanejamento .button2 {
+        background-color: #B6C783 !important;
+        color: black !important;
+    }
+    
+    #oplanejamento .price {
+        font-size: 1rem !important;
+    }
+    #passos {
+        font-size: 1.2rem;
+        padding: 0.5rem;
+        padding-left: 1rem !important;  
+        padding-right: 1rem !important;
+    }
+
+
+    .content-wrapper {
+        flex-direction: column;
+        padding: 0.5rem;
+    }
+    .image-container {
+        display: none !important;
+        width: 100%; /* Ajuste a largura para 100% */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .image-retrato {
+        height: 10rem !important;
+        width: 10rem !important; /* Ajuste a largura conforme necessário */
+        border-radius: 0.5rem;
+    }
+    .text-container {
+        padding-left: 0;
+        text-align: center;
+        padding-left: 1rem !important;  
+        padding-right: 1rem !important;
+    }
+    .passos1 {
+        font-size: 1.2rem !important;
+        width: 90vw !important;
+        text-align: center !important;
+    }
+
+    .manha, .tarde, .horam, .horat {    
+        font-size: 1rem !important;
+    }
+    .manhaitens, .tardeitens {
+        font-size: 1rem !important;
+        width: auto !important;
+        padding-left: 2rem !important;  
+        padding-right: 2rem !important;
+    }
+    .button-container {
+        display: flex;
+        justify-content: center;
+    }
+    .button3 {
+        display: block; /* ALTERADO PARA BLOCK */
+        margin: 0 auto; /* CENTRALIZAÇÃO */
+        width: auto !important;
+        color: black !important
+        ;
+        background-color: #B6C783 !important;
+        margin: 0.5rem 0 !important;
+        padding: 0.8rem 1.5rem;
+    }
+
+    #bonus {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 1rem;
+        padding: 2vh 2vw 0 2vw !important;
+        height: 45vh;
+
+    }
+    .bonus1 {
+        width: 100%;
+        padding-bottom: 4vh;
+    }
+    .bespira {
+        display: inline; /* Aparece no mobile */
+    }
+
+    .bespira2 {
+        display: none !important ; /* Não aparece no mobile */
+    }
+    
+    .custom-font {
+        font-size: 2rem !important;
+        width: 80vw !important;
+        padding: 0 0 0 0 !important;
+        margin: -1.5rem 0 0 0 !important;
+    }
+    .custom-font {
+        font-size: 2rem !important;
+        width: 70vw !important;
+        padding: 0 0 0 0 !important;
+        margin: -1.5rem 0 0 0 !important;
+    }
+    
+
+    .aulabonus {
+        width: 100%;
+        font-size: 2.5rem;
+    }
+
+    .content-depoiment {
+        display: block !important; /* Altera o layout para bloco */
+        width: 90vw !important;
+        margin: 0 auto !important;
+    }
+
+    .content-depoiment > div {
+        width: 100% !important; /* Ajusta a largura para 100% */
+        margin-bottom: 2rem !important; /* Espaço entre os depoimentos */
+        padding: 1rem !important; /* Garante que o padding seja aplicado */
+        box-sizing: border-box !important;
+        font-size: 1rem;
+    }
+
+    .left p, .center p, .right p {
+        text-align: left !important; /* Ajusta o alinhamento do texto */
+        width: auto !important; /* Ajusta a largura do texto */
+    }
+
+    .name {
+        text-align: right !important;
+        font-style: italic !important;
+        margin-top: 1rem !important;
+    }
+    #quemsou {
+        padding: 1rem;
+        font-size: 1.5rem; /* Ajusta o tamanho da fonte conforme necessário */
+    }
+
+    .whois {
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centraliza a imagem */
+        text-align: justify; /* Centraliza o texto */
+        margin: 0 auto; /* CENTRALIZA O CONTÊINER */
+
+    }
+
+    .retangle-image-container {
+        width: 100%; /* ADICIONADO PARA CENTRALIZAR A IMAGEM */
+        display: flex; /* ADICIONADO PARA USAR FLEXBOX */
+        margin: -2vh auto -2vh auto !important ;
+        justify-content: center !important; /* Centraliza a imagem dentro do contêiner */
+
+    }
+
+    .whois-image {
+        width: 50vw !important;
+        display: block;
+        height: auto;
+        margin: 0 auto 1rem auto; /* Centraliza a imagem com margem inferior */
+        float: none; /* Remove o float para centralizar a imagem */
+    }
+
+    .soumari {
+        width: 85vw !important;
+        font-size: 1.3rem !important; /* Ajusta o tamanho da fonte conforme necessário */
+        margin-bottom: 0 !important;
+        text-align: justify; /* Centraliza o texto */
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: center; /* Centraliza o botão */
+        width: 100%;
+    }
+
+    .button5, .button4 {
+        width: 70%;
+        padding: 1rem;
+        font-size: 1.2rem; /* Ajusta o tamanho da fonte conforme necessário */
+    }
+}
