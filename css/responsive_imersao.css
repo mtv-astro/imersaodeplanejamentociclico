@@ -287,6 +287,8 @@
         font-weight: normal !important;
         text-align: center !important;
         color: black;
-        line-height: 1.5;   
+        line-height: 1.5;
+        width: 75vw !important;
+        padding: 0 12vw 0 5vw !important;
     }
 }
