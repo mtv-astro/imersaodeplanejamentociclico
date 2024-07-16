@@ -367,8 +367,9 @@
 #depoimentos {
     height: auto;
     font-size: 2rem;
-    margin: 0 0 2rem 0;
+    margin: -10vh 0 -5vh 0 !important ;
     font-family: 'EB Garamond', serif;
+    background-color: #FFFDF9 !important;
 }
 
 .content-depoiment {
@@ -405,8 +406,9 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 2rem 1rem;
+    padding: 3rem 1rem;
     font-size: 2rem;
+    margin-top: 8vh;
   }
   
   .soumari {
@@ -540,8 +542,8 @@
 #oque {
     background-color: #FFFDF9;
     text-align: center;
-    width: auto;
-    padding: 2vh 10vw 1vh 10vw;
+    width: 80vw;
+    padding: 2vh 0 1vh 8vw;
     margin-left: 0 !important;
     margin-right: 0 !important;
     margin-bottom: 0 !important;
@@ -551,7 +553,8 @@
 .whatis {
     font-size: 2rem;
     margin-bottom: -1.6rem !important;
-    padding: 2vh 25vw -10vh 25vw !important;
+    text-align: center;
+    padding: 2vh 0 -10vh 0 !important;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: #B99AC3;
@@ -559,20 +562,22 @@
 .whatisplanejamento {
     font-size: 1.4rem;
     font-weight: normal;
-    text-align: left;
+    text-align: center;
     color: black;
-    line-height: 1;   
+    line-height: 1;  
+    padding: 0 20vw 0 20vw;
+    width: 40vw;
 }
 
 /* CSS para a seção de depoimentos */
-#depoimentos {
+#depoimentosvid {
     background-color: #B99AC3; /* Ajuste conforme necessário */
     padding: 2rem 1rem;
     text-align: center;
     font-family: 'Eb', serif;
 }
 
-#depoimentos h2 {
+#depoimentosvid h2 {
     font-size: 2rem;
     color: #333;
     font-weight: 500;

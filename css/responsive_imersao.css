@@ -188,18 +188,6 @@
         padding: 0 0 0 0 !important;
         margin: -1.5rem 0 0 0 !important;
     }
-    .custom-font {
-        font-size: 2rem !important;
-        width: 70vw !important;
-        padding: 0 0 0 0 !important;
-        margin: -1.5rem 0 0 0 !important;
-    }
-    
-
-    .aulabonus {
-        width: 100%;
-        font-size: 2.5rem;
-    }
 
     .content-depoiment {
         display: block !important; /* Altera o layout para bloco */
