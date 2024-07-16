@@ -563,3 +563,52 @@
     color: black;
     line-height: 1;   
 }
+
+/* CSS para a seção de depoimentos */
+#depoimentos {
+    background-color: #B99AC3; /* Ajuste conforme necessário */
+    padding: 2rem 1rem;
+    text-align: center;
+    font-family: 'Eb', serif;
+}
+
+#depoimentos h2 {
+    font-size: 2rem;
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    font-family: 'EB Garamond', serif;
+}
+
+/* CSS para centralizar o vídeo */
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+/* CSS para o botão */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.button5 {
+    background-color: #B6C783;
+    color: black;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, outline 0.3s ease;
+    text-decoration: none;
+    font-family: 'Montserrat', serif;
+}
+
+.button5:hover {
+    background-color: rgba(182, 199, 131, 0.5);
+    outline: 0.2rem solid #B6C783;
+}
