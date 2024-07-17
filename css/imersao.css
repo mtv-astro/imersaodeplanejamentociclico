@@ -561,7 +561,7 @@
 }
 .whatisplanejamento {
     font-size: 1.4rem;
-    font-weight: normal;
+    font-weight: normal !important;
     text-align: center;
     color: black;
     line-height: 1;  

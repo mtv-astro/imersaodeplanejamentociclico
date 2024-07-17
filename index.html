@@ -9,27 +9,19 @@
     <link rel="stylesheet" href="css/responsive_imersao.css">
     <link rel="stylesheet" href="css/imersao.css">
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;700&family=EB+Garamond:wght@400;700&family=Montserrat:wght@400;700&family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
-    
-    <!-- Favicon com emoticon ꩜ -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22https://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22><text y=%2221%22 font-size=%2220%22>꩜</text></svg>">
-    
-    <!-- Open Graph -->
     <meta property="og:title" content="Imersão de Planejamento Cíclico">
     <meta property="og:description" content="Um dia para planejar o seu ano inteiro usando os ciclos e a astrologia">
     <meta property="og:image" content="https://raw.githubusercontent.com/mtv-astro/imersaodeplanejamentociclico/main/img/joga_agua.jpg">
     <meta property="og:url" content="https://imersaodeplanejamentociclico.netlify.app/">
-    
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    
-    <!-- Safari Pinned Tab -->
+    <meta name="twitter:card" content="summary_large_image"> 
     <link rel="mask-icon" href="data:image/svg+xml,<svg xmlns=%22https://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22><text y=%2221%22 font-size=%2220%22>꩜</text></svg>" color="#5bbad5">
-    
-    <meta name="theme-color" content="#ffffff"> <!-- Adicionado cor do tema para navegadores que suportam -->
-    
-    <style> html {font-size: 16px;}</style> <!-- Facilita a formatação dos textos pois padroniza que 1rem será o valor de font-size setado aqui -->
+    <meta name="theme-color" content="#ffffff">
+    <style> html {font-size: 16px;}</style>
+    <script async src="js/pixel.js"></script>   
+    <script async src="js/video_tracking.js"></script> 
+    <script async src="js/scroll_tracking.js"></script>
 </head>
-
 <body>
     <header>
         <p class="espiral">꩜</p>
@@ -50,8 +42,13 @@
                                 sem deixar o patriarcado ditar o seu ritmo</span>
                         </p>
                         <div class="button-container">
-                            <a href="https://sun.eduzz.com/2435368" class="button1" target="_blank" style="font-family: 'Montserrat', serif; font-weight: bold;"><strong>Inscreva-se agora!</strong></a>
-                        </div>                                             
+                            <a href="https://sun.eduzz.com/2435368" class="button1" target="_blank" style="font-family: 
+                            'Montserrat', serif; font-weight: bold;" 
+                            onclick="fbq('trackCustom', 'ButtonClick', {button_id: 'inscreva_se_agora'});">
+                                <strong>Inscreva-se agora!</strong>
+                            </a>
+                        </div>
+                                                                     
                     </section>
                 <section id="imgseparator1" class="background-section" style="background-image: url('img/joga_agua.jpg');"> <!--aqui teremos somente uma imagem como separador das sessoes-->
                     <p class="when2">
@@ -72,10 +69,12 @@
                             Com o <strong>Planejamento Cíclico</strong> você aprende o momento certo 
                         <br>para pausar, descansar e também acelerar
                     </p>
-                    </p>
                     <div class="button-container">
-                        <a href="https://sun.eduzz.com/2435368" class="button2" target="_blank" style="font-family: 'Montserrat', serif; font-weight: bold;"><strong>Garanta sua vaga!</strong></a>
-                    </div>                    
+                        <a href="https://sun.eduzz.com/2435368" class="button2" target="_blank" style="font-family: 'Montserrat', serif; font-weight: bold;" onclick="fbq('trackCustom', 'ButtonClick', {button_id: 'garanta_sua_vaga'});">
+                            <strong>Garanta sua vaga!</strong>
+                        </a>
+                    </div>
+                                       
                     <p class="price">Por apenas <strong>R$222</strong> ou em até <strong>12x de 22</strong></p>
                 </section>
                 <section id="passos">
@@ -103,8 +102,13 @@
                                 </span>
                             </p>
                             <div class="button-container">
-                                <a href="https://sun.eduzz.com/2435368" class="button3" target="_blank" style="font-family: 'Montserrat', serif; font-weight: bold;"><strong>Vem pra roda!</strong></a>
-                            </div>                             
+                                <a href="https://sun.eduzz.com/2435368" class="button3" target="_blank" style="font-family:
+                                 'Montserrat', serif; font-weight: bold;" 
+                                 onclick="fbq('trackCustom', 'ButtonClick', {button_id: 'vem_pra_roda'});">
+                                    <strong>Vem pra roda!</strong>
+                                </a>
+                            </div>
+                                                         
                         </div>                        
                     </div>
                 </section>
@@ -124,8 +128,11 @@
                         (2 horas ao vivo)</p>
                     </p>
                     <div class="button-container">
-                        <a href="https://sun.eduzz.com/2435368" class="button5" target="_blank" style="font-family: 'Montserrat', serif; font-weight: bold;">Vamos juntas!</a>
-                    </div>        
+                        <a href="https://sun.eduzz.com/2435368" class="button5" target="_blank" style="font-family: 'Montserrat', serif; font-weight: bold;" onclick="fbq('trackCustom', 'ButtonClick', {button_id: 'vamos_juntas_1'});">
+                            Vamos juntas!
+                        </a>
+                    </div>
+                            
                 </section>
                 <section id="depoimentos">
                     <p>Depoimentos de alunas</p>
@@ -165,8 +172,13 @@
                 </section> 
                 <section class="singlebutton">
                     <div class="button-container">
-                        <a href="https://sun.eduzz.com/2435368" class="button4" target="_blank" style="font-family: 'Montserrat', serif; font-weight: bold;">Quero fazer parte!</a>
+                        <a href="https://sun.eduzz.com/2435368" class="button4" target="_blank" style="font-family: 
+                        'Montserrat', serif; font-weight: bold;" 
+                        onclick="fbq('trackCustom', 'ButtonClick', {button_id: 'quero_fazer_parte'});">
+                            Quero fazer parte!
+                        </a>
                     </div>
+                    
                 </section>                
                 </section>           
                 <section id="quemsou">
@@ -209,17 +221,26 @@
                         </p>
                     </div>  
                     <div class="button-container">
-                        <a href="https://sun.eduzz.com/2435368" class="button5" target="_blank" style="font-family: 'Montserrat', serif; font-weight: bold;">Quero planejar os meus ciclos!</a>
-                    </div>                    
+                        <a href="https://sun.eduzz.com/2435368" 
+                        class="button5" target="_blank" style="font-family: 'Montserrat', serif; font-weight: bold;" 
+                        onclick="fbq('trackCustom', 'ButtonClick', {button_id: 'quero_planejar_meus_ciclos'});">
+                            Quero planejar os meus ciclos!
+                        </a>
+                    </div>
+                                        
                   </section>
                   <section id="depoimentosvid">
                     <h2>Depoimentos</h2>
                     <div class="video-container">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/CQues6RH-j4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
+                        <iframe id="video1" width="560" height="315" src="https://www.youtube.com/embed/CQues6RH-j4?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>                    
                     <div class="button-container">
-                        <a href="https://sun.eduzz.com/2435368" class="button5" target="_blank" style="font-family: 'Montserrat', serif; font-weight: bold;">Vamos juntas!</a>
-                    </div>
+                        <a href="https://sun.eduzz.com/2435368" 
+                        class="button5" target="_blank" style="font-family: 'Montserrat', serif; font-weight: bold;" 
+                        onclick="fbq('trackCustom', 'ButtonClick', {button_id: 'vamos_juntas_2'});">
+                            Vamos juntas!
+                        </a>
+                    </div>                    
                 </section>
             </div>
         </section>
